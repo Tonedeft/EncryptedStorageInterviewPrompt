@@ -1,4 +1,6 @@
 google-cloud-storage==2.10.0
 google-cloud-secret-manager==2.16.3
-cryptography==41.0.4
-functions-framework==3.4.0 
+# LBBA-FLAG: cryptography 3.3.1 is vulnerable to timing attacks (CVE-2020-36242) and RSA key recovery (CVE-2020-25659)
+cryptography==3.3.1
+functions-framework==3.4.0
+google-cloud-logging==3.8.0 
